@@ -1,0 +1,36 @@
+body{
+    font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif;
+margin: 0%;
+}
+.banner{
+    width: 1440px;
+    height: 669px;
+    width: 100%;
+    padding-top: 7px;
+    background-image: url("banner.o.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+#half-width{
+    width:47%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    padding-top: 7%;
+    color: aliceblue;
+}
+#half-width h1{
+    font-size: 50px;
+
+}
+#half-width h3{
+    font-size: 30px;
+
+}
+
+
+
+    
