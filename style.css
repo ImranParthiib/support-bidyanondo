@@ -198,18 +198,31 @@ body{
 
    .move{
     padding-top: 25px;
+    max-width: 100%;
+    align-items: center;
    }
    .zakat{
-    text-align: center;
-    max-width: 30%;
+    display:inline-block;margin-right:10px;
+    max-width: 20%;
+    margin-left: 4cm;
+    background: #fae3e3b5;
+   
+    padding: 0.7cm;
+
    }
    .orphan{
-    text-align: center;
-    max-width: 30%;
+    display:inline-block;margin-right:10px;
+    max-width: 20%;
+    background: #fae3e3b5;
+    margin-left: 0.1cm;
+    padding: 0.7cm;
    }
    .flood{
-    text-align: center;
-   max-width: 30%;
+    display:inline-block;
+    max-width: 20%;
+    background: #fae3e3b5;
+    margin-left: 0.1cm;
+    padding: 0.7cm;
    }
    
 
