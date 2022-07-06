@@ -202,9 +202,9 @@ body{
     align-items: center;
    }
    .zakat{
-    display:inline-block;margin-right:10px;
-    max-width: 20%;
-    margin-left: 4cm;
+    display:inline-block;margin-right:8px;
+    max-width: 25%;
+    margin-left: 3.5cm;
     background: #fae3e3b5;
    
     padding: 0.7cm;
@@ -212,14 +212,19 @@ body{
    }
    .orphan{
     display:inline-block;margin-right:10px;
-    max-width: 20%;
+    max-width: 25%;
     background: #fae3e3b5;
-    margin-left: 0.1cm;
-    padding: 0.7cm;
+    margin-left: 0.5cm;
+    padding: 0.5cm;
+   }
+   orphan icon{
+    margin-left: 0% ;
+    width: 2px;
+
    }
    .flood{
     display:inline-block;
-    max-width: 20%;
+    max-width: 25%;
     background: #fae3e3b5;
     margin-left: 0.1cm;
     padding: 0.7cm;
