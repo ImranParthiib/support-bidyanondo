@@ -56,9 +56,9 @@ body{
     background: tomato;
     margin-left: 13cm;
     margin-bottom: 10cm;
-    padding: 10px 40px;
+    padding: 12px 25px;
     border-radius: 5px;
-    color: white;
+    color: #ffffff;
     font-weight: 700;
     font-size: 20px;
 }
@@ -71,20 +71,47 @@ body{
     font: weight 700;
     line-height: 54px;
     font-weight: bold;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; letter-spacing: 1px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;letter-spacing: 1px; 
+
 }
-    #option-two{
+ #opacity{
+   color: #757070d3;
+   font-family:'Poppins';
+   font-weight: bold;
+   font-size: 16px;
+   line-height: 28px;
+   line-height: 104%;
+   vertical-align: top;
+   letter-spacing: 1px; 
+ }
+
+
+.line{
+    margin-left: 8.5cm;
+    margin-right: 8.5cm;
+}
+
+
+.position{
+    padding-top: 35px;
+    
+}
+
+
+  #option-two{
     text-decoration: none;
-    background: tomato;
+    background: #FF5959;
     position: center;
     margin-bottom: 10cm;
-    padding: 10px 40px;
+    padding: 16px 25px;
     border-radius: 5px;
-    color: white;
+    color: #ffffff;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 19px;
+    font-family: sans-serif;
 
    }
+   
    .box{
     padding-top: 17px;
    }
