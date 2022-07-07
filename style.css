@@ -7,8 +7,8 @@ body{
     
 }
 .banner{
-    background:rgba(0, 0, 0, 0.53)url("banner.o.jpg");
-    background-blend-mode: darken;
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0),rgba(10, 10, 10, 0.991)),url('banner.o.jpg');
     background-repeat: no-repeat;
     background-size: cover; 
     background-position: center;
@@ -91,14 +91,10 @@ body{
     margin-left: 8.5cm;
     margin-right: 8.5cm;
 }
-
-
 .position{
     padding-top: 35px;
     
 }
-
-
   #option-two{
     text-decoration: none;
     background: #FF5959;
@@ -203,34 +199,91 @@ body{
    }
    .zakat{
     display:inline-block;margin-right:8px;
-    max-width: 25%;
+    max-width: 23%;
     margin-left: 3.5cm;
-    background: #fae3e3b5;
-   
-    padding: 0.7cm;
-
-   }
-   .orphan{
-    display:inline-block;margin-right:10px;
-    max-width: 25%;
-    background: #fae3e3b5;
-    margin-left: 0.5cm;
+    background:#e9f7f8f9;
     padding: 0.5cm;
-   }
-   orphan icon{
+    border-radius: 5px;
+}
+.zakat img{
     margin-left: 0% ;
-    width: 2px;
+     width: 100px;
+     height: 100px;
+     padding-top: 0.5cm;
 
+}
+   .orphan{
+    display:inline-block;margin-right:8px;
+    max-width: 23%;
+    margin-left: 0.1cm;
+    background: #f5e8e6;
+    padding: 0.5cm;
+    border-radius: 5px;
+}
+  
+   .orphan img{
+    margin-left: 0% ;
+     width: 80px;
+     height: 80px;
+     padding-top: 0.5cm;
    }
    .flood{
-    display:inline-block;
-    max-width: 25%;
-    background: #fae3e3b5;
+    display:inline-block;margin-right:8px;
+    max-width: 23%;
+    margin-left: 3.5cm;
+    background: rgb(246, 243, 211);
     margin-left: 0.1cm;
-    padding: 0.7cm;
+    padding: 0.5cm;
+    border-radius: 5px;
    }
-   
+   .flood img{
+    margin-left: 0% ;
+     width: 100px;
+     height: 80px;
+     padding-top: 0.5cm;
+   }
+   .move h2{
+    font-size: 24px;
+    font: weight 600;
+    line-height: 54px;
+    font-style: semi-bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
+   }
+   .regis_{
+    padding-top: 3cm;
+    padding-bottom: 5cm;
+    margin-left: 2cm;
+   }
+   .half-width{
+    width:40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    max-width: 35%;
+   }
+   .half-width h1{
+    font-size: 45px;
+    font: weight 700;
+    line-height: 54px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;letter-spacing: 1px; 
+   }
+   .half-width h4{
+    letter-spacing: 2px; 
+   }
+   .paddl{
+    padding-top: 1cm;
+   }
+   .half-width img{
+    width: 456px;
+    height: 477px;
+   }
+   .future{
+   margin-top: 11cm;
+    padding-bottom: 3cm;
+    margin-left: 2cm;
+   }
 
 
 
@@ -253,7 +306,7 @@ body{
         padding: 0%;
     }
     .footer{
-        padding-top: 5cm;
+        padding-top: 30cm;
         
         
     }
